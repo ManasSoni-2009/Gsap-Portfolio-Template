@@ -13,24 +13,24 @@ import {
 
 const textureLoader = new THREE.TextureLoader();
 const imageUrls = [
-  "/images/react2.webp",
-  "/images/next2.webp",
-  "/images/node2.webp",
-  "/images/express.webp",
-  "/images/mongo.webp",
-  "/images/mysql.webp",
-  "/images/typescript.webp",
-  "/images/javascript.webp",
-  "/images/python.svg",
-  "/images/java.svg",
-  "/images/cplusplus.svg",
-  "/images/c.svg",
-  "/images/flutter.svg",
-  "/images/figma.svg",
-  "/images/canva.svg",
-  "/images/premierepro.svg",
-  "/images/photoshop.svg",
-  "/images/windows8.svg",
+  "./images/react2.webp",
+  "./images/next2.webp",
+  "./images/node2.webp",
+  "./images/express.webp",
+  "./images/mongo.webp",
+  "./images/mysql.webp",
+  "./images/typescript.webp",
+  "./images/javascript.webp",
+  "./images/python.svg",
+  "./images/java.svg",
+  "./images/cplusplus.svg",
+  "./images/c.svg",
+  "./images/flutter.svg",
+  "./images/figma.svg",
+  "./images/canva.svg",
+  "./images/premierepro.svg",
+  "./images/photoshop.svg",
+  "./images/windows8.svg",
 ];
 const textures = imageUrls.map((url) => {
   const tex = textureLoader.load(url);
@@ -214,7 +214,7 @@ const TechStack = () => {
           ))}
         </Physics>
         <Environment
-          files="/models/char_enviorment.hdr"
+          files="./models/char_enviorment.hdr"
           environmentIntensity={0.5}
           environmentRotation={[0, 4, 2]}
         />

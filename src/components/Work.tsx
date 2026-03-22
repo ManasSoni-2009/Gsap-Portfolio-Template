@@ -8,13 +8,13 @@ const projects = [
     title: "Adobe Stock Automation",
     category: "AI Image Automation",
     tools: "Make.com, Imagen 4, Adobe Firefly",
-    image: "/images/adobe_stock.png",
+    image: "./images/adobe_stock.png",
   },
   {
     title: "Multi-Agent Blog Network",
     category: "AI Content Generation",
     tools: "Make.com, Multi-Agent System, RSS Feeds",
-    image: "/images/multi_agent.png",
+    image: "./images/multi_agent.png",
   },
 ];
 
